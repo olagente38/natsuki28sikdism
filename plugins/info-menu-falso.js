@@ -729,7 +729,7 @@ await m.reply(lenguajeCD['smsMalError3']() + '\n*' + lenguajeCD.smsMensError1() 
 console.log(`❗❗ ${lenguajeCD['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}}
 
-handler.command = /^(m|menú2|Menú2|menu2|Menu2|menucompleto|menubot|\?)$/i
+handler.command = /^(menu|menú2|Menú2|menu2|Menu2|menucompleto|menubot|\?)$/i
 //handler.register = true
 export default handler
 
