@@ -6,7 +6,7 @@ import axios from 'axios'
 const LimitAud = 725 * 1024 * 1024 //700MB
 const LimitVid = 425 * 1024 * 1024 //425MB
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-if (!text) return conn.reply(m.chat, `> ⓘ 𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙾 𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾́𝙽 𝚀𝚄𝙴 𝚀𝚄𝙸𝙴𝚁𝙴 𝚀𝚄𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝚄𝙴, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} \`Ari Abdul Babydoll\``, m)
+if (!text) return conn.reply(m.chat, `> 𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙾 𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾́𝙽 𝚀𝚄𝙴 𝚀𝚄𝙸𝙴𝚁𝙴 𝚀𝚄𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝚄𝙴, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} \`Ari Abdul Babydoll\``, m)
 const yt_play = await search(args.join(' '))
 const ytplay2 = await yts(text)
 const texto1 = `\`━─━─≪ [ Descargas YouTube ] ≫─━─━\`
